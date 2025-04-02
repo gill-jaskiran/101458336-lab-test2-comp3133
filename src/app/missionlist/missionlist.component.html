@@ -1,0 +1,14 @@
+<h1>Mission</h1>
+<div *ngFor="let mission of Missions">
+  <div>
+    <label for="missionName">Mission Name:</label>
+    <input type="text" id="missionName" [value]="mission.name" disabled>
+  </div>
+  <div>
+    <label for="missionDetails">Mission Details:</label>
+    <textarea id="missionDetails" [value]="mission.details" disabled></textarea>
+  </div>
+</div>
+
+
+  
