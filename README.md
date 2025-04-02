@@ -11,5 +11,6 @@ in submission link i have provided in the comments my code explaination to get p
 To start a local development server, run:
 
 ```bash
+npm install
 ng serve
 ```
